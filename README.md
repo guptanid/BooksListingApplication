@@ -1,0 +1,2 @@
+# BooksListingApplication
+This application consumes an API which returns a list of Books with details in JSON form. List of books is shown using UITableView to the user. JSON parsing is done using Alamofire library and Images are parsed using SDWebImage library. Cocoapods is used to include these third party libraries. UITableView cells are consutructed dynamically and can have different layout based on data returned from API.
